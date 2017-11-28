@@ -1,1 +1,30 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>TargetClinic</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.9c9d664344718046d8be.bundle.js"></script><script type="text/javascript" src="polyfills.ad37cd45a71cb38eee76.bundle.js"></script><script type="text/javascript" src="main.7e201eab38f0ea731f95.bundle.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>TargetClinic</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script>var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      function plusDivs2(n) {
+        showDivs2(slideIndex += n);
+      }
+      function showDivs2(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides2");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }</script><script type="text/javascript" src="inline.454296a4ed16968e9fc2.bundle.js"></script><script type="text/javascript" src="polyfills.ad37cd45a71cb38eee76.bundle.js"></script><script type="text/javascript" src="main.8344d5238e9355e1b801.bundle.js"></script></body></html>
