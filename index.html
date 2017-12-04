@@ -8,34 +8,76 @@
     //     maxItems: 4
     //     });
     // });
+    window.onload = function(){
+
       
-      var slideIndex = 1;
-      showDivs(slideIndex);
+      function e(t){
+        var o,
+        i=document.getElementsByClassName("mySlides");
+        // x=document.getElementsByClassName("mySlides2");
+        if(0!=i.length){
+          for(l&&(document.querySelector("button.w3-display-left").addEventListener("click",function(t){
+            e(n+=-1)}),
+            document.querySelector("button.w3-display-right").addEventListener("click",function(t){
+              e(n+=1)}),l=!1),
+              t>i.length&&(n=1),
+              t<1&&(n=i.length),
+              o=0;o<i.length;o++)
+              i[o].style.display="none";
+              i[n-1].style.display="block"}
+        // if(0!=x.length){
+        //   for(l&&(document.querySelector("button.w3-display-left").addEventListener("click",function(t){
+        //     e(n+=-1)}),
+        //     document.querySelector("button.w3-display-right").addEventListener("click",function(t){
+        //       e(n+=1)}),l=!1),
+        //       t>x.length&&(n=1),
+        //       t<1&&(n=x.length),
+        //       o=0;o<x.length;o++)
+        //       x[o].style.display="none";
+        //       x[n-1].style.display="block"}
+            }
+              function t(){
+                var e,l=document.getElementsByClassName("mySlides");
+                for(e=0;e<l.length;e++)l[e].style.display="none";
+                n++,0!=l.length&&(n>l.length&&(n=1),l[n-1].style.display="block"),setTimeout(t,5e3);
+
+                // var z,x=document.getElementsByClassName("mySlides2");
+                // for(z=0;z<x.length;z++)x[z].style.display="none";
+                // n++,0!=x.length&&(n>x.length&&(n=1),x[n-1].style.display="block"),setTimeout(t,0)
+              }
+
+              var n=1,l=!0;e(n);var n=0;t();
+          
+            };
+      // var slideIndex = 1;
+      // showDivs(slideIndex);
       
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
-      }
-      function plusDivs2(n) {
-        showDivs2(slideIndex += n);
-      }
-      function showDivs2(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides2");
-        if (n > x.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";  
-        }
-        x[slideIndex-1].style.display = "block";  
-      }
+      // function plusDivs(n) {
+      //   showDivs(slideIndex += n);
+      // }
+      // function plusDivs2(n) {
+      //   showDivs2(slideIndex += n);
+      // }
+      // function showDivs2(n) {
+      //   var i;
+      //   var x = document.getElementsByClassName("mySlides2");
+      //   if (n > x.length) {slideIndex = 1}    
+      //   if (n < 1) {slideIndex = x.length}
+      //   for (i = 0; i < x.length; i++) {
+      //      x[i].style.display = "none";  
+      //   }
+      //   x[slideIndex-1].style.display = "block";  
+      // }
       
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";  
-        }
-        x[slideIndex-1].style.display = "block";  
-      }</script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><link rel="stylesheet" href="assets/slider/css/flexslider.css"><script type="text/javascript" src="inline.83bb8e9d10e94d44c645.bundle.js"></script><script type="text/javascript" src="polyfills.ad37cd45a71cb38eee76.bundle.js"></script><script type="text/javascript" src="main.1d6735addeaa4e7a7826.bundle.js"></script></body></html>
+      // function showDivs(n) {
+      //   var i;
+      //   var x = document.getElementsByClassName("mySlides");
+      //   if (n > x.length) {slideIndex = 1} {   
+      //   if (n < 1) {slideIndex = x.length}{
+      //   for (i = 0; i < x.length; i++) {
+      //      x[i].style.display = "none";  
+      //   }
+      // }
+      // }
+      //   x[slideIndex-1].style.display = "block";  
+      // }</script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><link rel="stylesheet" href="assets/slider/css/flexslider.css"><script type="text/javascript" src="inline.1da91a218857c85ee1f3.bundle.js"></script><script type="text/javascript" src="polyfills.ad37cd45a71cb38eee76.bundle.js"></script><script type="text/javascript" src="main.147509a112dc239ef985.bundle.js"></script></body></html>
