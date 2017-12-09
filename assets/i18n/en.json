@@ -1,4 +1,11 @@
 {
+    "MAIN": {
+        "Modern_scientific": "A modern scientific approach is a foundation of successful tumor treatment",
+        "Qualified_consultancy": "Qualified consultancy to oncological patients,",
+        "Including_provision": "including provision of “another opinion” services.",
+        "Supportive_care": "Supportive care for oncological patients despite",
+        "Location": "The clinic is located in the one-storey building, in the area of good transport decisions on the outskirts of Kiev."
+    },
     "DISEASE": {
         "List_of_diseases": "List Of Diseases",
         "Following_tumors": "The Clinic provides treatments of the following tumors:",
@@ -94,6 +101,8 @@
         "Сomfortable_waiting_room":"reception with a comfortable waiting room",
         "Сonsultation_room":"consultation room",
         "two_ultramodern":"two ultramodern treatment rooms with an express laboratory for analysis",
+        "donor": "There are comfortable multi-functional donor chairs in the treatment rooms, designed for many-hours-long intravenous infusions of medications.",
+        "air_conditioning":"All premises are equipped with air conditioning and video surveilance.",
         "clinical_oncologist":"Professor Kyrkylevskyi is a well-known Ukrainian clinical oncologist with 35 years of expertise. He has a unique experience with hundreds of complicated surgeries on oncological patients. His expertise includes a huge number of accurate diagnoses and complex clinical situations’ solutions. ",
         "author_of_numerous":"Professor Kyrkylevskyi is an author of numerous scientific academic papers, he has been a supervisor of doctoral and candidates’ dissertations on oncology.",
         "founder_and_CEO":"The founder and CEO of the TARGET Clinic",
