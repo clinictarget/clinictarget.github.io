@@ -59,7 +59,10 @@
         "Address":"Address:",
         "Street":"Povitroflots'kyi Ave, 81",
         "City":"Kyiv, Ukraine",
-        "Direction":"How to get there"
+        "Direction":"How to get there?",
+        "Trolleybuses": "Trolleybuses: №9, №22 - the final stop “Kyiv” airport",
+        "Buses":"Buses: 78, 302, 368, 805 - the final stop “Kyiv” airport",
+        "Taxi":"Taxi: 496, 499, 565 - the final stop “Kyiv” airport"
     },
     "MENU": {
         "About_us":"About Us",
