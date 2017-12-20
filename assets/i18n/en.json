@@ -73,6 +73,8 @@
     },
     "ABOUT": {
         "Personalized_Medicine":"Personalized Medicine",
+        "person": "Personalized",
+        "medicine": "Medicine",
         "Aims_And_Objectives":"Aims and Objectives",
         "Our_Principles":"Our Principles",
         "Medical_Equipment":"Medical Equipment",

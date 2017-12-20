@@ -73,6 +73,8 @@
     },
     "ABOUT": {
         "Personalized_Medicine":"Персоніфікована медицина",
+        "person": "Персоніфікована",
+        "medicine": "медицина",
         "Aims_And_Objectives":"Цілі та завдання клініки",
         "Our_Principles":"Наші принципи",
         "Medical_Equipment":"Лікувальна база",
