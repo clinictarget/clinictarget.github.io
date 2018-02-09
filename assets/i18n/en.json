@@ -43,7 +43,8 @@
         "Antibiotic_therapy":"Antibiotic therapy",
         "provide_medical_care":"In addition to oncological patients we provide medical care to:",
         "intravenous_antibiotics":"Patients requiring intravenous antibiotics",
-        "treat_conditions":"Patients requiring medication to treat conditions such as multiple sclerosis, Crohn's disease, rheumatoid arthritis, osteoporosis, iron deficiency and anemia among others."
+        "treat_conditions":"Patients requiring medication to treat conditions such as multiple sclerosis, Crohn's disease, rheumatoid arthritis, osteoporosis, iron deficiency and anemia among others.",
+        "withDifferentDiseases":"Patients with various diseases, which are shown intravenous drug administration"
     },
     "CONTACTS": {
         "Contacts":"Contacts",
