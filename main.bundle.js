@@ -519,7 +519,7 @@ var MainComponent = (function () {
             else if (_this.activeSlide === 2) {
                 _this.activeSlide = 0;
             }
-        }, 5000);
+        }, 15000);
     };
     MainComponent.prototype.nextSlide = function () {
         console.log('next slide');
